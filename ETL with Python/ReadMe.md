@@ -1,7 +1,7 @@
 ![last-commit](https://img.shields.io/github/last-commit/aimmazlan/etl-pipeline)
 ![commit-activity](https://img.shields.io/github/commit-activity/w/aimmazlan/etl-pipeline)
 
-<p align="center"><img src="https://github.com/aimmazlan/ETL-Pipeline/blob/main/ETL%20with%20Python/sql-server-to-postgres.jpg" alt="SQL-SERVER-POSTGRESS-PIPELINE" /></p>
+<p align="center"><img src="https://github.com/aimmazlan/ETL-Pipeline/blob/main/IMG/sql-server-to-postgres.jpg" alt="SQL-SERVER-POSTGRESS-PIPELINE" /></p>
 
 
 ## Overview
