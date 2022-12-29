@@ -10,7 +10,7 @@ uid = os.environ['PGUID']
 #sql db details
 driver = "{SQL Server Native Client 11.0}"
 server = "DESKTOP-7LTMV25"
-database = "sql_store"
+database = "AdventureWorks"
 
 #extract data from sql server
 def extract():
