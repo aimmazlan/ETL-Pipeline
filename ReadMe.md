@@ -10,12 +10,15 @@
 <h1 align="center">Projects</h1>
 
 ## Overview
-This is the Python repository (repo) that supports BI Insights Inc YouTube channel's videos. This repo houses the code for multiple topics covered on the channel ranging from data analysis, machine learning and web development using Python and ETL.
+This Python Repository (Repo) houses all of the code for ETL/ELT projects. Please feel free to take these and run with them. Make them your own and find you own insights. I really do hope this is helpful and helps you in any way.
 
 
 ## Getting Started
 
-Clone or download the repo. Follow the instructions provided on the channel. 
+Clone or download the repo.
+```
+$ git clone git@github.com:aimmazlan/ETL-Pipeline.git
+```
 
 ## Technology Stack
 
