@@ -1,4 +1,4 @@
-<p align="center"><img src="[https://github.com/aimmazlan/ETL-Pipeline/blob/main/IMG/ETL_to_AWS_S3.png)" alt="ETL-AWS" /></p>
+<p align="center"><img src="https://github.com/aimmazlan/ETL-Pipeline/blob/main/IMG/ETL_to_AWS_S3.png" alt="ETL-PIPELINE" /></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![last-commit](https://img.shields.io/github/last-commit/aimmazlan/etl-pipeline)
