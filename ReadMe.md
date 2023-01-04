@@ -38,11 +38,11 @@ Will update if any new platforms are used.
 ## Setup Instructions
 
 Please see the configuration documentation for Jupyter Notebook and PyCharm.
-1. [Apache Airflow](https://www.youtube.com/watch?v=t4h4vsULwFE)
+1. [Apache Airflow](https://www.youtube.com/watch?v=z7xyNOF8tak&ab_channel=coder2j)
 2. [Docker](https://www.docker.com/)
-3. [Jupyter Notebook](https://www.youtube.com/watch?v=B0G-44dqHRM)
+3. [Jupyter Notebook](https://www.youtube.com/watch?v=WUeBzT43JyY&ab_channel=AlexTheAnalyst)
 4. [PyCharm](https://www.jetbrains.com/pycharm/)
-5. [PostgreSQL](https://www.youtube.com/watch?v=fjYiWXHI7Mo&t)
+5. [PostgreSQL](https://www.youtube.com/watch?v=MTRtusym-2s&ab_channel=TheTrader%27sCode)
 6. [Python](https://www.python.org/)
-7. [SQL Server](https://www.youtube.com/watch?v=e5mvoKuV3xs)
+7. [SQL Server](https://www.youtube.com/watch?v=C_KeaoJ6-Gc&ab_channel=AmitThinks)
 
