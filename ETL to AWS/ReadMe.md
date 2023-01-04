@@ -1,4 +1,10 @@
-# Uploading Data from On-Premise Database to AWS S3 using Python
+<p align="center"><img src="[https://github.com/aimmazlan/ETL-Pipeline/blob/main/IMG/ETL_to_AWS_S3.png)" alt="ETL-AWS" /></p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![last-commit](https://img.shields.io/github/last-commit/aimmazlan/etl-pipeline)
+![commit-activity](https://img.shields.io/github/commit-activity/w/aimmazlan/etl-pipeline)
+
+# Uploading on-premise database data to AWS S3 using Python
 
 In this project, we will cover how to upload data from an on-premise database to an AWS S3 bucket using Python. We will use the AWS S3 API to achieve this by connecting to the database, reading the data into a data frame for each table, and writing the data to S3 in a separate folder for each table.
 
