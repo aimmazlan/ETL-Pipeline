@@ -45,4 +45,4 @@ With PySpark, it is easy to build an ETL pipeline to extract data from a source,
 - [PySpark documentation](https://spark.apache.org/docs/latest/api/python/)
 
 
-If you encounter any issues while running the pipeline, you can check the error messages printed in the console for troubleshooting. You can also modify the SQL query or the data transformation steps as needed to meet your specific requirements.
+
