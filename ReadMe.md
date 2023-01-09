@@ -10,7 +10,7 @@
 <h1 align="center">Projects</h1>
 
 ## Overview
-This Python Repository (Repo) houses all of the code for ETL/ELT projects. Please feel free to take these and run with them. Make them your own and find you own insights. I really do hope this is helpful and helps you in any way.
+This Python Repository (Repo) houses all of the code for ETL/ELT projects. Please feel free to take these and run with them. Make them your own and find your own insights. I really do hope this is helpful and helps you in any way.
 
 
 ## Getting Started
