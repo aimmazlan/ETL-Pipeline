@@ -26,14 +26,14 @@ Make sure Pytest is installed on your system using:
 ## Step 2: Create a new Python file 
 Name file with the `test_` prefix (e.g. `test_pipeline_data_core.py`) 
 ## Step 3: Import necessary libraries 
-```shell
+```python
 import pytest
 import pandas as pd
 import numpy as np
 from numpy import nan
 ```
 ## Step 4: Bring in the data the test data
-In this example, we will use data from an Excel file, [Product.xlsx](https://github.com/aimmazlan/ETL-Pipeline/blob/main/Data%20Pipeline%20Testing%20%5BPyTest%5D/Product.xlsx) exported from the adventureworks database.
+In this example, we will use data from [Product.xlsx](https://github.com/aimmazlan/ETL-Pipeline/blob/main/Data%20Pipeline%20Testing%20%5BPyTest%5D/Product.xlsx) exported from the adventureworks database.
 ## Step 5: Define test cases to run against the data 
 Possible test cases to include are:
    - Testing that none of the columns in the data are null
@@ -41,7 +41,7 @@ Possible test cases to include are:
    - Testing the correctness of data transformation (e.g. proper date formatting, correct calculation of values)
 ## Step 6: Write a test case with Pytest 
 Define a function with the `test_` prefix (e.g. `def test_columns_not_null():`). Inside the function, use Pytest's `assert` function to make an assertion about the data. For example:
-```shell
+```python
 def test_columns_not_null():
 assert data.isnull().sum().sum() == 0
 ```
