@@ -39,3 +39,23 @@ FROM iot_telemetry
 WINDOW TUMBLING (SIZE 120 SECONDS)
 GROUP BY device_id;
 
+-- Create a failed device table with desired threshold
+CREATE TABLE failed_devices WITH (KAFKA_TOPIC = 'failed_devices') AS
+SELECT device_id FROM iot_telemetry_lags WHERE lag_ms > 6000;
+
+-- Create a sink connector to BigQuery
+CREATE SINK CONNECTOR failed_devices_sink WITH (
+    'connector.class' = 'io.confluent.connect.bigquery.BigQuerySinkConnector',
+    'key.converter' = 'org.apache.kafka.connect.storage.StringConverter',
+    'value.converter' = 'org.apache.kafka.connect.json.JsonConverter',
+    'confluent.topic.bootstrap.servers' = 'PLAINTEXT://localhost:9092',
+    'confluent.topic.replication.factor' = '1',
+    'bigquery.project.id' = '<your-project-id>',
+    'bigquery.dataset' = '<your-dataset>',
+    'bigquery.table' = 'failed_devices',
+    'bigquery.create.disposition' = 'CREATE_IF_NEEDED',
+    'bigquery.write.disposition' = 'WRITE_APPEND',
+    'flush.size' = '3'
+);
+
+
