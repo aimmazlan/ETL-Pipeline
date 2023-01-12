@@ -60,7 +60,7 @@ CREATE SINK CONNECTOR failed_devices_sink WITH (
 ```
 
 ## Step 3: Test with mock data 
-If you are you not running source connectors to produce events, you can use ksqlDB INSERT INTO statements to insert mock data into the source topics:
+If you are you not running source connectors to produce events, you can use ksqlDB `INSERT INTO` statements to insert mock data into the source topics:
 ```SQL
 INSERT INTO iot_telemetry (device_id, ts) VALUES (1, 1655144403000);
 INSERT INTO iot_telemetry (device_id, ts) VALUES (0, 1655144403000);
@@ -76,7 +76,7 @@ INSERT INTO iot_telemetry (device_id, ts) VALUES (0, 1655144583000);
 
 ```
 ## Step 4: Validate the process
-Run the folling query:
+Run the following query:
 ```sql
 SELECT device_id, lag_ms, window_start, window_end FROM iot_telemetry_lags WHERE lag_ms > threshold;
 ```
