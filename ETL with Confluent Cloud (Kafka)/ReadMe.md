@@ -1,9 +1,11 @@
-<p align="center"><img src="https://github.com/aimmazlan/ETL-Pipeline/blob/main/IMG/Real-Time_ETL_(ELT)_with_Kafka.png" alt="ETL-PIPELINE" /></p>
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![last-commit](https://img.shields.io/github/last-commit/aimmazlan/etl-pipeline)
 ![commit-activity](https://img.shields.io/github/commit-activity/w/aimmazlan/etl-pipeline)
+
+<p align="center"><img src="https://github.com/aimmazlan/ETL-Pipeline/blob/main/IMG/Real-Time_ETL_with_Kafka.png" alt="ETL-PIPELINE" /></p>
+
 ## <p align="center"> Identify Malfunctioning Sensor via IoT data
+
 
 ## Overview
 Seamlessly streaming IoT sensor data in real-time from a manufacturing facility straight into a database, utilizing Apache Kafka and the ksqlDB application in Confluent Cloud. Analyze the device telemetry data with ease and load the results into BigQuery for in-depth insights.
