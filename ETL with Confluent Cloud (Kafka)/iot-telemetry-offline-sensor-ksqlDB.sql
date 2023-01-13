@@ -1,3 +1,4 @@
+-- Create a source connector to PostgreSQL
 CREATE SOURCE CONNECTOR IF NOT EXISTS iot_telemetry WITH (
   'connector.class'          = 'PostgresSource',
   'name'                     = 'postgres-iot_telemetry',
@@ -44,7 +45,7 @@ CREATE TABLE failed_devices WITH (KAFKA_TOPIC = 'failed_devices') AS
 SELECT device_id FROM iot_telemetry_lags WHERE lag_ms > 6000;
 
 -- Create a sink connector to BigQuery
-CREATE SINK CONNECTOR failed_devices_sink WITH (
+CREATE SINK CONNECTOR IF NOT EXISTS failed_devices_sink WITH (
     'connector.class' = 'io.confluent.connect.bigquery.BigQuerySinkConnector',
     'key.converter' = 'org.apache.kafka.connect.storage.StringConverter',
     'value.converter' = 'org.apache.kafka.connect.json.JsonConverter',
