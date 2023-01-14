@@ -27,7 +27,7 @@ Will update if any new platforms are used.
 
 1. [Apache Airflow](https://airflow.apache.org/)
 2. [AWS](https://aws.amazon.com/)
-3. [Docker](https://www.docker.com/)
+3. [Confluent](https://confluent.cloud/)
 4. [Google Cloud](https://cloud.google.com/)
 5. [Jupyter Notebook](https://jupyter.org/)
 6. [PyCharm](https://www.jetbrains.com/pycharm/)
@@ -39,7 +39,7 @@ Will update if any new platforms are used.
 
 Please see the configuration documentation for Jupyter Notebook and PyCharm.
 1. [Apache Airflow](https://www.youtube.com/watch?v=z7xyNOF8tak&ab_channel=coder2j)
-2. [Docker](https://www.docker.com/)
+2. [Confluent Cloud](https://confluent.cloud/)
 3. [Jupyter Notebook](https://www.youtube.com/watch?v=WUeBzT43JyY&ab_channel=AlexTheAnalyst)
 4. [PyCharm](https://www.jetbrains.com/pycharm/)
 5. [PostgreSQL](https://www.youtube.com/watch?v=MTRtusym-2s&ab_channel=TheTrader%27sCode)
