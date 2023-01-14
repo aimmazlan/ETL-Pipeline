@@ -22,7 +22,7 @@ Dagster is an application that allows you to orchestrate your Python scripts in 
 
 ## Step 2: Create a New Dagster Project
 
-1. Create a new Dagster project: `dagster new -project etl`
+1. Create a new Dagster project: `dagster project scaffold --name etl`
 2. Replace the contents of the `etl_pipeline.py` file with your own ETL pipeline code.
 
 ## Step 3: Define the DAG
