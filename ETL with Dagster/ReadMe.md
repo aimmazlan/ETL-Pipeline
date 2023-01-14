@@ -17,7 +17,7 @@ Dagster is an application that allows you to orchestrate your Python scripts in 
 ## Step 1: Set Up a Virtual Environment and Install Dagster and Dagit
 
 1. Create a virtual environment in a directory: `python -m venv env`
-2. Activate the virtual environment: `source env/script/activate`
+2. Activate the virtual environment: `source env\Scripts\Activate`
 3. Install Dagster and Dagit in the virtual environment: `pip install dagster dagit`
 
 ## Step 2: Create a New Dagster Project
